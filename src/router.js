@@ -1,7 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
+import Inicio from "./views/Inicio"
 const Busqueda = () => import("./views/Busqueda");
-
 Vue.use(Router);
 
 export default new Router({
@@ -10,7 +10,7 @@ export default new Router({
     {
       path: "/",
       name: "inicio",
-      component: import("./views/Inicio"),
+      component: Inicio,
     },
     {
       path: "/busqueda",

@@ -40,8 +40,8 @@ export default {
   },
   props: {
     data: {
-      type: Array,
-      default: () => [],
+      type: String,
+      default: () => "",
     },
   },
 };
